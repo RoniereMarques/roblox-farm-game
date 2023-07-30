@@ -17,8 +17,8 @@ driver.get("https://www.roblox.com/login")
 # Encontrar o campo de e-mail pelo ID e digitar o e-mail desejado
 email_field = driver.find_element(By.ID, "login-username")
 senha_field = driver.find_element(By.ID, "login-password")
-email_field.send_keys('meu_eggnasuaboca')
-senha_field.send_keys('bR@268412345')
+email_field.send_keys('***************')
+senha_field.send_keys('***************')
 
 # Encontrar e clicar no botão de login pelo ID
 login_button = driver.find_element(By.ID, "login-button")
